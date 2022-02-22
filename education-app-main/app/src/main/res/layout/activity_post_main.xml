@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PostMainActivity">
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="411dp"
+      android:layout_height="46dp"
+      android:layout_gravity="center"
+      android:background="#4BA8F1"
+      android:gravity="center"
+      android:text="投稿画面"
+      android:textSize="20sp"
+      android:textStyle="bold" />
+
+  <Space
+      android:layout_width="match_parent"
+      android:layout_height="30dp" />
+
+  <TextView
+      android:id="@+id/textView6"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="TextView" />
+
+  <Space
+      android:layout_width="match_parent"
+      android:layout_height="30dp" />
+
+  <TextView
+      android:id="@+id/textView4"
+      android:layout_width="match_parent"
+      android:layout_height="113dp"
+      android:background="#D283BEED"
+      android:backgroundTint="#D283BEED"
+      android:gravity="center"
+      android:text="[あなたの投稿]　\nあなたはどのように考えましたか？ \n自由に書いてみましょう"
+      android:textSize="16sp" />
+
+  <Space
+      android:layout_width="match_parent"
+      android:layout_height="20dp" />
+
+  <TextView
+      android:id="@+id/textView5"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#D283BEED"
+      android:gravity="center"
+      android:text="[投降内容]"
+      android:textSize="16sp" />
+
+
+  <EditText
+      android:id="@+id/editTextTextPersonName"
+      android:layout_width="match_parent"
+      android:layout_height="193dp"
+      android:background="@drawable/border_blue1"
+      android:ems="10"
+      android:gravity="top"
+      android:hint="ここに入力して下さい"
+      android:inputType="textPersonName"
+      android:padding="8dp" />
+
+  <Button
+      android:id="@+id/button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:backgroundTint="#4BA8F1"
+      android:text="これで投稿する"
+      android:textColor="#171313"
+      android:textSize="16sp"
+      android:textStyle="normal" />
+
+  <Space
+      android:layout_width="match_parent"
+      android:layout_height="20dp" />
+
+  <ImageView
+      android:id="@+id/imageView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:srcCompat="@drawable/book" />
+
+</LinearLayout>
